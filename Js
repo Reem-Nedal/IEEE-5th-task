@@ -1,0 +1,60 @@
+<html>
+
+
+<head></head>
+<body>
+
+
+
+<script>
+//Write a JavaScript program that accepts two integers and displays the larger.
+
+
+let x =prompt(0,"value of x");
+let y=prompt(0,"value of y");
+
+
+
+if (x>y){
+
+console.log(x);
+console.log("x is bigger than y")
+}
+else{
+
+console.log(y);
+console.log("y is bigger than x")
+
+}
+//to find the largest of five numbers.
+var array=[ -5, -2, -6, 0, -1];
+largest=array[3];
+for(i=0;i>=largest;i++){
+
+console.log(array[i]);
+
+}
+
+//elements in reverse order
+let arraytwo=[43,"what",9,true,"contant",false,"be",3,true];
+for(i=8;i>=0;i--)
+{
+console.log(arraytwo[i]);
+
+}
+//check if contains the letter y 
+
+var letters="dont know why";
+
+if (check(letters.split('y'))){
+
+console.log("yes");
+}
+else{
+console.log("no");
+
+}
+
+</script>
+</body>
+</html>
